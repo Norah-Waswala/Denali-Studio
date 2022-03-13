@@ -4,3 +4,30 @@ h1 {
     text-align: center;
 
 }
+.container h3 {
+text-align: center;
+}
+.container img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h2 {
+  text-align: center;
+}
+.gallery {
+  
+ margin-left: 100px;
+ margin-right: 100px;
+
+  
+}
+div.container2 {
+  background-image: url("../../images/backgrounds/c_image.jpg");
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+}
