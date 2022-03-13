@@ -18,9 +18,7 @@ h2 {
 }
 .gallery {
   
- margin-left: 100px;
- margin-right: 100px;
-
+margin: 15%;
   
 }
 div.container2 {
@@ -40,8 +38,48 @@ div.container2 {
 .welcome {
   background-image: url("../images/backgrounds/h_img.jpg");
   color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10%;
 }
+
 .welcome h6 {
   text-align: center;
   font-size: x-small;
+  padding-top: 3cm;
+  
+}
+.logo {
+  text-align: center;
+  padding-top: 9cm;
+  
+}
+.mouse {
+  text-align: center;
+  padding-top: 5cm;
+  padding-bottom: 2cm;
+}
+.welcome2 {
+  padding-top: 50cm;
+
+}
+.delani{
+  padding-top: 3cm;
+}
+.amazing {
+  padding-top: 1cm;
+  padding-bottom: 5cm;
+}
+.aboutus {
+  text-align: center;
+  padding-top: 1px;
+}
+.services {
+  text-align: center;
+  background-image: url("../images/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  margin: 10%;
+  padding: 5%;
 }
