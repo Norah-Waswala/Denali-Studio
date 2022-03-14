@@ -10,29 +10,39 @@ h1 {
 .container {
 text-align: center;
 }
+
+
+
 .container img {
     display: block;
   margin: 10%;
   width: 50%;
 }
+
+.container .row  #design{
+  display: none;
+}
+
+.container .row  #dev{
+  display: none;
+}
+
+.container .row #product-m{
+  display: none;
+}
+
 h2 {
   text-align: center;
 }
+
+/* Gallery */
+
 .gallery {
-  
-margin: 15%;
-  
+margin: 15%;  
 }
-div.container2 {
-  background-image: url("../../images/backgrounds/c_image.jpg");
-  padding: 25px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10%;
-  size: inherit;
-}
-.container2 h2{
-  color: #f8f8f8;
+
+.gallery .row img{
+  padding: 10px;
 }
 
 .message {
@@ -45,31 +55,6 @@ div.container2 {
 .end {
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Welcome page */
-
 .welcome {
   background-image: url("../images/backgrounds/h_img.jpg");
   background-repeat: no-repeat;
@@ -115,3 +100,32 @@ div.container2 {
   padding: 70px;
 }
 
+/* Contact Us */
+
+.container2{
+  margin: 10px;
+}
+
+.container2 h2{
+  padding: 15px;
+}
+
+.container2 .form{
+  text-align: center;
+  opacity: 0.2;
+  border-color: white;
+  padding: 20px;
+}
+.container2 .form input{
+  border-color: white;
+  border-style: solid;
+  margin: 10px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer h3 {
+  padding-top: 24px;
+}
