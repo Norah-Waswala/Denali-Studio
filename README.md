@@ -22,7 +22,7 @@ A webiste giving users full range of services that we do in Delani studio includ
 For more information, find me at my email (https://norah.waswala15@gmail.com)
 
 ## link to live site on github pages
-
+https://norah-waswala.github.io/Denali-Studio/
 
 ## License and copyright information
 [MIT LICENSE](LICENSE)
