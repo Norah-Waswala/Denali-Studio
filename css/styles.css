@@ -73,12 +73,13 @@ div.container2 {
 .welcome {
   background-image: url("../images/backgrounds/h_img.jpg");
   background-repeat: no-repeat;
-  padding: 285px;
+  padding: 25px;
   margin: 10px;
 }
 
 .welcome .logo {
   text-align: center;
+  padding-top: 270px;
 }
 
 .welcome .w-page{
@@ -94,46 +95,23 @@ div.container2 {
   padding: 21px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About Us */
 
 .aboutus {
   text-align: center;
-  padding-top: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+/* Services */
+
 .services {
   text-align: center;
   background-image: url("../images/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #f8f8f8;
-  margin: 10%;
-  padding: 5%;
+  margin: 10px;
+  padding: 70px;
 }
+
