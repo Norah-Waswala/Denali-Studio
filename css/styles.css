@@ -1,8 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-
   font-family: 'Roboto Mono', monospace;
-    text-align: center;
-
+  text-align: center;
 }
 .container {
 text-align: center;
@@ -26,58 +29,101 @@ div.container2 {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10%;
+  size: inherit;
+}
+.container2 h2{
+  color: #f8f8f8;
 }
 
 .message {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
  color:  #f8f8f8;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  
-  font-size: 16px;
+ columns: 80%;
+ 
   resize: none;
+  
 }
 .end {
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Welcome page */
+
 .welcome {
   background-image: url("../images/backgrounds/h_img.jpg");
-  color: #f8f8f8;
   background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10%;
-  
+  padding: 285px;
+  margin: 10px;
 }
 
-.welcome h6 {
+.welcome .logo {
   text-align: center;
-  font-size: x-small;
-  padding-top: 3cm;
-  
 }
-.logo {
-  text-align: center;
-  padding-top: 9cm;
-  
-}
-.mouse {
-  text-align: center;
-  padding-top: 5cm;
-  padding-bottom: 2cm;
-}
-.welcome2 {
-  padding-top: 50cm;
 
+.welcome .w-page{
+  text-align: center;
+  color: #faf3f3;
 }
-.delani{
-  padding-top: 3cm;
+
+.welcome .w-page .pic {
+  margin-top: 320px;
 }
-.amazing {
-  padding-top: 1cm;
-  padding-bottom: 5cm;
+
+.welcome .w-page h1{
+  padding: 21px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Us */
+
 .aboutus {
   text-align: center;
   padding-top: 1px;
