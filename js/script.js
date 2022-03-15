@@ -28,5 +28,8 @@ $(document).ready(function() {
           $("#product-m").toggle();
   
       });
+      $("button").click(function () {
+        alert($("#name").val() + " we have received your message. Thank you for reaching out to us.")
+      })
 });
 
